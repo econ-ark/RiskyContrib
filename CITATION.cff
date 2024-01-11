@@ -1,10 +1,36 @@
-cff-version: 1.1.0
+cff-version: "1.2.0"
 message: "If you use this software, please cite it as below."
 authors:
-  - family-names: Velásquez-Giraldo
-    given-names: Mateo
+  - family-names: "Velásquez-Giraldo"
+    given-names: "Mateo"
     orcid: https://orcid.org/0000-0001-7243-6776
 title: "A Two-Asset Savings Model with an Income-Contribution Scheme"
-version: v1.0.1
-doi: 10.5281/zenodo.4977915
+abstract: "This paper develops a two-asset consumption-savings model and serves as
+the documentation of an open-source implementation of methods to solve and
+simulate it in the HARK toolkit. The model represents an agent who can
+save using two different assets---one risky and the other risk-free---to insure
+against fluctuations in his income, but faces frictions to transferring funds between
+assets. The flexibility of its implementation and its inclusion in the HARK
+toolkit will allow users to adapt the model to realistic life-cycle calibrations, and
+also to embedded it in heterogeneous-agents macroeconomic models."
+
 date-released: 2021-06-17
+
+references:
+  - type: article
+    authors:
+      - family-names: "Velásquez-Giraldo"
+        given-names: "Mateo"
+        orcid: https://orcid.org/0000-0001-7243-6776
+    title: "A Two-Asset Savings Model with an Income-Contribution Scheme" # required
+    doi: "10.5281/zenodo.4974234"
+    date-released: 2021-06-17
+
+repository-code: https://github.com/econ-ark/RiskyContrib
+
+keywords:
+  - Lifecycle
+  - Portfolio Choice
+  - Social Security
+  - Open Source
+
