@@ -1,7 +1,0 @@
-matplotlib
-numpy
-scipy
-pandas
-seaborn
-git+git://github.com/econ-ark/HARK@760df611a6ec2ff147d00b7d866dbab6fc4e18a1
-jupyter_contrib_nbextensions
