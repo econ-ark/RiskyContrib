@@ -128,7 +128,7 @@ g = sns.FacetGrid(
 )
 g.map(sns.lineplot, "m", "value", alpha=0.7)
 g.add_legend(bbox_to_anchor=[0.5, 0.0], ncol=3, title="")
-g.set_axis_labels("$m$", "Rebalancing fraction: $\dFrac$")
+g.set_axis_labels("$m$", "Rebalancing fraction")
 make(g, "inf_dFunc")
 plt.pause(1)
 
