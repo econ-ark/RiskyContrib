@@ -432,7 +432,7 @@ g = sns.FacetGrid(
 )
 g.map(sns.lineplot, "m", "value", alpha=0.7)
 g.add_legend(bbox_to_anchor=[0.5, 0.0], ncol=4, title="")
-g.set_axis_labels("$m$", "Rebalancing fraction: $\dFrac$")
+g.set_axis_labels("$m$", "Rebalancing fraction")
 
 # %% [markdown]
 # ### Income deduction share
